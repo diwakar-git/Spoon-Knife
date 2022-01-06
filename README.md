@@ -1,9 +1,45 @@
-### Well hello there!
+# Employee Management System Database
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+Hello There, It is a simple university project of database course. I have made a simple UI and basic SQL commands to make this project.
+Created with help of YouTube, Google, GitHub, Stack Overflow, free templates on the internet and so on. 
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+## This site features:
+### Admin Panel:
+* Different Login system for Admin and Employees.
+* Admin can add new employees, Assign individual Porjects, Check Salary, Check Staus of projects, Mark the projects.
+* Leaderboard gets updated upon providing the marks.
+* According to the marks employees get bonus over the base salary.
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+### User Panel:
+* Check the leaderboard, Due projects and salary.
+* Can view own profile and update the basic infos.
+* Submit the project.
+* Apply for leave.
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+## Languages used for this projects are:
+* HTML
+* CSS
+* Javascript
+* My SQL
+
+### ER Diagram and Relational Schema is also provided as PDF's. 
+
+## Istallation Guide:
+1. Clone the whole repository to your localhost folder.
+2. Launch XAMPP (or any other similar service) and start Apache, My SQL
+3. Goto phpmyadmin and create a database named **370project** and then import the file named **370project.sql**
+4. Then launch the site.
+
+## Login Info:
+### Admin Panel:
+ID: admin
+
+Pass: admin
+
+### User Panel:
+ID: User's Email Address
+
+Pass: 1234 (By Default, User can change if they wish)
+
+
+Ignore the noob level coding. ^_^
